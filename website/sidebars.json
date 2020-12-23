@@ -1,0 +1,28 @@
+{
+  "Docs": {
+    "Introduction" : ["welcome"],
+    "Java": [
+      "java", 
+      "docker",
+      "examples",
+      {
+        "type": "subcategory",
+        "label": "My Example Subcategory",
+        "ids": [
+          "java"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "My Next Subcategory",
+        "ids": [
+          "docker"
+        ]
+      }
+    ],
+    "Docker" : ["kube"],
+    "Caching" : ["cache/http-cache", "cache/redis"],
+    "Security" : [],
+    "Build Tool" : []
+  }
+}
