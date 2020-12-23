@@ -17,6 +17,9 @@
           "docker/kube"
         ]
       }],
+    "UI" : ["ui/angular"],
+    "Concepts" : ["concepts/cors-guide", "concepts/rest-guide", "concepts/security-guide"],
+    "Apache Solr" : ["solr/solr-guide", "solr/solr-mysql-import-guide"],
     "Caching" : ["cache/http-cache", "cache/redis"],
     "Messaging Middleware" : ["messaging/rabbitmq"],
     "Build Tool" : ["buildtool/maven"]
