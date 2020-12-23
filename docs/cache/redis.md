@@ -3,7 +3,7 @@ id: redis
 title: Redis Cache
 ---
 
-> Work-In-Progress
+> Work In-Progress
 
 Redis is not a plain key-value store but in-memory data structure store
 

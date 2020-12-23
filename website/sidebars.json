@@ -1,28 +1,24 @@
 {
   "Docs": {
     "Introduction" : ["welcome"],
-    "Java": [
-      "java", 
-      "docker",
-      "examples",
+    "Java": ["java/java"],
+    "Docker & K8" : [
       {
         "type": "subcategory",
-        "label": "My Example Subcategory",
+        "label": "Docker",
         "ids": [
-          "java"
+          "docker/docker"
         ]
       },
       {
         "type": "subcategory",
-        "label": "My Next Subcategory",
+        "label": "Kubernetes",
         "ids": [
-          "docker"
+          "docker/kube"
         ]
-      }
-    ],
-    "Docker" : ["kube"],
+      }],
     "Caching" : ["cache/http-cache", "cache/redis"],
-    "Security" : [],
-    "Build Tool" : []
+    "Messaging Middleware" : ["messaging/rabbitmq"],
+    "Build Tool" : ["buildtool/maven"]
   }
 }

@@ -34,8 +34,8 @@ const siteConfig = {
   organizationName: 'iamvickyav',
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'docker', label: 'Docker'},
-    {doc: 'java', label: 'Java'}
+    {doc: 'docker/docker', label: 'Docker'},
+    {doc: 'java/java', label: 'Java'}
   ],
 
   // If you have users set above, you add it here:
